@@ -27,15 +27,9 @@
                             <li><a href="">Virement</a></li>
                         </ul>
             </nav>
-                 {if isset($ok)}
-                    {if $ok != 0}
-                       <div class="alert alert-success">Données ajoutées!</div>
-                    {else}
-                        <div class="alert alert-danger">Erreur!</div>
-                    {/if}
-                 {/if}
+                
 
-                <form action='{$url_base}Clientparticulier/add' method="POST"  id="myform">
+                <form action="http://localhost/mesprojets/BP_CI/ClientParticulier" method="POST"  id="myform">
                     <fieldset class="container"><br><br />
                         <legend id="open">Créer Client Particulier</legend>
 
@@ -46,23 +40,23 @@
                             <input id="prenom" name="prenom" type="text" /><br><br />
 
                             <label for="Genre">Genre*</label>
-                                <select name="Genre" id="Genre">
+                                <select name="genre" id="Genre">
                                     <option value="Selectionnez">Selectionnez*</option>
                                     <option value="Homme">Homme</option>
                                     <option value="Femme">Femme</option>
                                 </select>
 
                             <label for="Email">Email</label>
-                            <input id="Email" name="Email" type="email"/><br><br />
+                            <input id="Email" name="email" type="email"/><br><br />
 
                             <label for="Adresse">Adresse*</label>
-                            <input id="Adresse" name="Adresse" type="text" />
+                            <input id="Adresse" name="adresse" type="text" />
 
                             <label for="Telephone">Telephone*</label>
                             <input id="Telephone" name="telephone" type="tel" /><br><br />
 
                             <label for="Profession">Profession*</label>
-                            <input id="Profession" name="Profession" type="text"/>
+                            <input id="Profession" name="profession" type="text"/>
 
 
                             <label for="Salarie">Salarié*</label>
