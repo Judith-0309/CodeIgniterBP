@@ -34,6 +34,9 @@ $routes->get('/', 'Home::index');
 $routes->get('/ClientParticulier', 'ClientParticulierController::store');
 $routes->post('/ClientParticulier', 'ClientParticulierController::store');
 
+$routes->get('/Compte', 'CompteController::store');
+$routes->post('/Compte', 'CompteController::store');
+
 /**
  * --------------------------------------------------------------------
  * Additional Routing

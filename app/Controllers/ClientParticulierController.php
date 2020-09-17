@@ -68,7 +68,7 @@ class ClientParticulierController extends Controller
 
             $save = $model->insert($data);
             var_dump($save);
-            die;
+           // die;
         }
 
         return view("clientParticulier/store");
