@@ -42,9 +42,11 @@ class CompteController extends Controller
                 'DateOuverture'  => $this->request->getVar('DateOuverture'),
                 
             ];
+          
 
             $save = $model->insert($data);
             var_dump($save);
+
            // die;
         }
 

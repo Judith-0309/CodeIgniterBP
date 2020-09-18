@@ -6,5 +6,5 @@ class CompteModel extends Model
 {
     protected $table = 'compte';
  
-    protected $allowedFields = [ 'typeCompte' , 'NumeroCompte ' , 'CleRib' , 'EtatCompte' , 'DepotInitial', 'DateOuverture'];
+    protected $allowedFields = [ 'typeCompte' , 'NumeroCompte' , 'CleRib' , 'EtatCompte' , 'DepotInitial', 'DateOuverture'];
 }

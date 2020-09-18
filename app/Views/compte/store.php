@@ -30,7 +30,7 @@
                         </select><br/>
 
                     <label for="Numero_Compte">Numero_Compte*</label>
-                    <input id="Numero_Compte" name="NumeroCompte" type="number"/><br/>
+                    <input id="Numero_Compte" name="NumeroCompte" type="text"/><br/>
 
                     <label for="Cle_Rib">Cle_Rib*</label>
                     <input id="Cle_Rib" name="CleRib" type="number"/><br><br/>
@@ -53,11 +53,11 @@
 
                 </fieldset>
        
-                    <div class="button"><br />
+                    <div class="button">
                         <input type="submit" value="ENVOYER" name="envoyer" onclick="return validate()"/><br/>
                         <input type="reset" value="ANNULER"/>
 
-                    </div><br/>
+                    </div>
            </form>
 
 
